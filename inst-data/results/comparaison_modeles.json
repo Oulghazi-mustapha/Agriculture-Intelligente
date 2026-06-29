@@ -1,0 +1,24 @@
+{
+  "Random Forest": {
+    "r2_stress": 0.999,
+    "rmse_stress": 0.0098,
+    "r2_rendement": 0.992,
+    "f1_culture": 1.0,
+    "temps_s": 1.0
+  },
+  "XGBoost": {
+    "r2_stress": 1.0,
+    "rmse_stress": 0.0013,
+    "r2_rendement": 0.986,
+    "f1_culture": 1.0,
+    "temps_s": 0.7
+  },
+  "LSTM": {
+    "r2_stress": 0.999,
+    "rmse_stress": 0.0087,
+    "r2_rendement": 0.969,
+    "f1_culture": 1.0,
+    "temps_s": 18.6,
+    "epochs": 97
+  }
+}

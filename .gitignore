@@ -1,0 +1,15 @@
+# Données et modèles (trop volumineux / régénérables)
+data/
+models/
+*.csv
+*.pkl
+*.keras
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store

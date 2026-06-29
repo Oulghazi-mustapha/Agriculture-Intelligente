@@ -1,0 +1,77 @@
+{
+  "importance_globale": {
+    "precip_30j_mm": 0.2239,
+    "etp_mm_jour": 0.0577,
+    "temp_moyenne": 0.0029,
+    "humidite_pct": 0.0018,
+    "vitesse_vent_kmh": 0.0005,
+    "mois": 0.0003,
+    "region_enc": 0.0002,
+    "retention_eau": 0.0001,
+    "matiere_organique": 0.0001,
+    "culture_enc": 0.0001
+  },
+  "par_region": {
+    "Souss-Massa": {
+      "temp_moyenne": 0.0005,
+      "precip_30j_mm": 0.0557,
+      "etp_mm_jour": 0.0264,
+      "humidite_pct": 0.0006,
+      "vitesse_vent_kmh": 0.0004,
+      "retention_eau": 0.0001,
+      "matiere_organique": 0.0001,
+      "mois": 0.0,
+      "region_enc": -0.0,
+      "culture_enc": 0.0
+    },
+    "Gharb": {
+      "temp_moyenne": -0.0002,
+      "precip_30j_mm": -0.2402,
+      "etp_mm_jour": 0.0039,
+      "humidite_pct": -0.0034,
+      "vitesse_vent_kmh": -0.0005,
+      "retention_eau": -0.0,
+      "matiere_organique": -0.0,
+      "mois": 0.0002,
+      "region_enc": -0.0002,
+      "culture_enc": -0.0
+    },
+    "Doukkala": {
+      "temp_moyenne": -0.0002,
+      "precip_30j_mm": -0.0953,
+      "etp_mm_jour": -0.0227,
+      "humidite_pct": -0.0028,
+      "vitesse_vent_kmh": 0.0007,
+      "retention_eau": 0.0,
+      "matiere_organique": 0.0,
+      "mois": 0.0002,
+      "region_enc": 0.0,
+      "culture_enc": 0.0
+    },
+    "Tadla-Azilal": {
+      "temp_moyenne": -0.0015,
+      "precip_30j_mm": -0.2333,
+      "etp_mm_jour": 0.0318,
+      "humidite_pct": 0.0034,
+      "vitesse_vent_kmh": -0.0001,
+      "retention_eau": 0.0001,
+      "matiere_organique": 0.0001,
+      "mois": -0.0001,
+      "region_enc": 0.0003,
+      "culture_enc": 0.0
+    }
+  },
+  "features": [
+    "temp_moyenne",
+    "precip_30j_mm",
+    "etp_mm_jour",
+    "humidite_pct",
+    "vitesse_vent_kmh",
+    "retention_eau",
+    "matiere_organique",
+    "mois",
+    "region_enc",
+    "culture_enc"
+  ],
+  "methode": "TreeExplainer (SHAP)"
+}
